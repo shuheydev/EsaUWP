@@ -85,9 +85,10 @@ namespace EsaUWP
                 //非アクティブ時のタイトルバーに付随の最大・最小化ボタン、閉じるボタンの文字色、背景色の指定
                 titleBar.ButtonInactiveBackgroundColor = Windows.UI.Color.FromArgb(0xff, 0x0a, 0x9b, 0x94);
 
+                //#13bfb6
                 //マウスホバー時のタイトルバーに付随の最大・最小化ボタン、閉じるボタンの文字色、背景色の指定
                 titleBar.ButtonHoverForegroundColor = Windows.UI.Colors.White;
-                titleBar.ButtonHoverBackgroundColor = Windows.UI.Color.FromArgb(0xff, 0x0a, 0x9b, 0x94);
+                titleBar.ButtonHoverBackgroundColor = Windows.UI.Color.FromArgb(0xff, 0x13, 0xbf, 0xb6);
 
                 //システムの戻るボタンを表示
                 //不要な場合はコメントアウトなど。
